@@ -1,5 +1,5 @@
 package edu.prog2.Model;
 
-public class Locomotive {
+public class Locomotive extends RailVehicle{
     
 }
