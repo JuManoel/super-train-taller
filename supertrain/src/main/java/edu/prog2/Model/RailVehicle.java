@@ -49,6 +49,6 @@ public abstract class RailVehicle {
             "Manufacturer Name: %s\n"+
             "Wheels: %d\n", 
         this.getIdentification(),this.getManufacturerName(),this.getWheels());
-        return super.toString();
+        return mensage;
     }
 }
