@@ -42,7 +42,8 @@ public class Train {
                 towedVehicles++;
             }
         }
-        if((locomotives>0 && locomotives<=2)&&(towedVehicles>1)){
+        if((locomotives>0 && locomotives<=2)&&(towedVehicles>=1)){
+            this.railsVehicles=new ArrayList<>();
             for (RailVehicle railVehicle : railsVehicles) {
                 this.railsVehicles.add(railVehicle);
             }
